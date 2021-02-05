@@ -1,12 +1,9 @@
-#include <stdio.h>
-#include<stdlib.h>
+#include <percentage.h>
 
 
-int main()
+float percentage(float operand1,float operand2)
 {
-    float operand1,operand2; 
-    float  percentage;
-
+    float result;
     /* Input 2 numbers */
     printf("Enter 2 numbers: \n");
     scanf("%f %f", &operand1,&operand2);
@@ -22,11 +19,11 @@ int main()
     /* Calculate percentage */
     /*Formula for percentage is */
 
-    percentage = (operand1 / operand2 )* 100;
+    result = (operand1 / operand2 )*100;
 
     /* Print the result */
-    printf("Percentage = %.2f", percentage);
+    printf("Percentage = %.2f", result);
     /* The result is rounded off to 2 decimal places */
     }
-    return 0;
+    return result;
 }
