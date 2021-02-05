@@ -1,7 +1,4 @@
-#include <stdio.h>
-
-
-
+#include <percentage.h>
 int main()
 {
     float a,b,c; 
@@ -16,12 +13,8 @@ int main()
     {
       printf("Error the sum of three numbers should be greater than 0");
     }
-
-    
     else
     {
-
-
     /* Calculate percentage */
     /*Formula for percentage is */
 
