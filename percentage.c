@@ -16,10 +16,6 @@ int main()
     {
       printf("Error the sum of three numbers should be greater than 0");
     }
-    else if(sum>1000)
-    {
-      printf("Sum of the numbers should be less than 1000 ");
-    }
 
     
     else
