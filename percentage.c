@@ -3,7 +3,7 @@ int main()
 {
     float a,b,c; 
     float  sum,percentage;
-    float total=300;
+    float total=300.00;
 
     /* Input 3 numbers */
     printf("Enter 3 numbers: \n");
