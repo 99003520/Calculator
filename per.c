@@ -3,14 +3,14 @@
 
 int main()
 {
-    float a,b; 
+    float operand1,operand2; 
     float  percentage;
 
     /* Input 2 numbers */
     printf("Enter 2 numbers: \n");
-    scanf("%f %f", &a,&b);
+    scanf("%f %f", &operand1,&operand2);
     /*Read the 2 numbers entered */
-    if(a==0 || b==0)
+    if(operand1==0 || operand==0)
     {
         printf("Both the numbers entered should be greater than 0");
     }
@@ -21,7 +21,7 @@ int main()
     /* Calculate percentage */
     /*Formula for percentage is */
 
-    percentage = (a / b )* 100;
+    percentage = (operand1 / operand2 )* 100;
 
     /* Print the result */
     printf("Percentage = %.2f", percentage);
