@@ -20,5 +20,9 @@
 | TP\_HL\_13 | Hectare to acres | 1 | 2.47 |
 | TP\_HL\_14 | Inch to cm | 1 | 2.54 |
 ![alt text](https://github.com/99003520/Calculator/blob/main/Low%20level%20design%20-%20percentage.png)
+Operator|Calculation|Comment|
+| :-: | :-: | :-: |
+|Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 45% represents 45 out of 100 or 45 percent of the total.|
+
 
 
